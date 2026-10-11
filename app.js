@@ -5,7 +5,7 @@ const port = 8080;
 
 // Main route - returns a greeting message
 app.get('/', (req, res) => {
-  res.send('Hello from my CI/CD pipeline!');
+  res.send('Hello from my automated pipeline v2!');
 });
 
 // Health check endpoint for monitoring
